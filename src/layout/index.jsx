@@ -4,11 +4,11 @@ import { Navbar, Footer } from "../shared";
 const RootLayout = () => {
   return (
     <div>
-      {/* <Navbar />
-      <main className="container mx-auto "> */}
+      <Navbar />
+      <main className="container mx-auto ">
         <Outlet />
-      {/* </main>
-      <Footer /> */}
+      </main>
+      <Footer />
     </div>
   );
 };
