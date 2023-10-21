@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.right_placeholder::placeholder {
+  text-align: right;
+}
